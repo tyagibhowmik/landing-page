@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modern Landing Page</title>
-    <!-- Google Fonts (optional) -->
+    
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <!-- Font Awesome for Icons (optional) -->
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <!-- Stylesheet -->
+   
     <style>
-        /* General Styles */
+       
         body {
             margin: 0;
             font-family: 'Poppins', sans-serif;
@@ -19,7 +19,7 @@
             line-height: 1.6;
         }
 
-        /* Header and Navigation */
+        
         .header {
             background: #ffffff;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -72,7 +72,7 @@
             background: #0056b3;
         }
 
-        /* Hero Section */
+      
         .hero-section {
             text-align: center;
             padding: 100px 20px;
@@ -105,7 +105,6 @@
             background: #0056b3;
         }
 
-        /* Features Section */
         .features-section {
             padding: 80px 20px;
             background: #ffffff;
@@ -131,6 +130,10 @@
             border-radius: 10px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
+            
+        }
+        .feature-item:hover{
+            transform: scale(1.2);
         }
 
         .feature-item i {
@@ -144,7 +147,7 @@
             margin-bottom: 15px;
         }
 
-        /* About Section */
+   
         .about-section {
             padding: 80px 20px;
             background: #f4f4f4;
@@ -162,7 +165,7 @@
             margin: auto;
         }
 
-        /* Footer */
+
         .footer {
             padding: 60px 20px;
             background: #333;
@@ -195,14 +198,14 @@
             color: #007BFF;
         }
 
-        /* Responsive Design */
+
         @media (max-width: 768px) {
             .navbar {
                 flex-direction: column;
             }
         }
 
-        /* Carousel Styles */
+
         .carousel-container {
             position: relative;
             max-width: 100%;
@@ -276,7 +279,7 @@
 <body>
     <header class="header">
         <nav class="navbar">
-            <a href="#" class="logo"></a>
+            <a href="#" class="logo"><img src="faviconio-logo/logo.png" alt="logo" style="height: 70px;width: 100px;"></a>
             <ul class="nav-links">
                 <li><a href="#features">Features</a></li>
                 <li><a href="#about">About</a></li>
@@ -348,7 +351,7 @@
         </div>
     </footer>
 
-    <!-- JavaScript -->
+
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const slides = document.querySelectorAll('.carousel-image');
